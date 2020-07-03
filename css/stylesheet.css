@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Londrina Solid', 'Helvetica Neue';
+  font-family: 'Cormorant', 'Helvetica Neue', serif;
 }
 
 header {
@@ -15,7 +15,7 @@ iframe {
 
 #section1 {
   padding: 100px 0;
-  background-image: url("../images/ramen-bg.png");
+  /*background-image: url("../images/ramen-bg.png");*/
 }
 
 #section2 {
@@ -66,15 +66,15 @@ iframe {
 }
 
 #title {
-  /*margin-top: 9vh;*/
+  margin-top: calc(40px);
 }
 
 .brand {
   display: inline;
-  font-family: 'Londrina Solid', 'Helvetica Neue';
-  font-size: 80px;
+  font-family: 'Cormorant', 'Helvetica Neue', serif;
+  font-size: 2em;
   text-align: center;
-  color: white;
+  color: black;
   padding: 0 40px;
 }
 
@@ -85,7 +85,7 @@ iframe {
   padding: 10px 25px 0px 25px;
 }
 @media (max-width: 400px) {
-  .brand {font-size: 40px;}
+  
   .description {display: none;}
 }
 
